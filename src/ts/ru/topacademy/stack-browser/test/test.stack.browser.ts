@@ -1,4 +1,4 @@
-import { StackBrowser } from "../stack-browser.ts";
+import { StackBrowser } from "../stack.browser.ts";
 
 const stackBrowser = new StackBrowser();
 
