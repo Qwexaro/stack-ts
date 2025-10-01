@@ -1,4 +1,8 @@
 import { expectCode } from "../expect.code.ts";
 
-console.log(expectCode("{ [ ( ) ] }"));
-console.log(expectCode("{ [ ( ) ] ."));
+
+export function testExcpectCode() {
+    
+    console.log(expectCode("{ [ ( ) ] }"));
+    console.log(expectCode("{ [ ( ) ] ."));
+}
